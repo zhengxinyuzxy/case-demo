@@ -12,7 +12,7 @@ public class PolymorphicTest {
         if (person1 instanceof Faculty) {
             Faculty faculty = (Faculty) person1;
             faculty.setDegree("本科");
-//            ((Faculty) person).setDegree("本科");
+//            ((Faculty) person1).setDegree("本科");
         }
 
         Person person2 = new Staff();
