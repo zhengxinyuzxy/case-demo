@@ -2,15 +2,17 @@
  * @author zhengxinyu
  * @date 2023/4/28
  */
-public class Main {
+public class AbstractTest {
+
     public static void main(String[] args) {
         Animal animal = new Cat();
 
         animal.eat();
 
-        if (animal instanceof Cat) {
-            Cat cat = (Cat) animal;
-            cat.catHouse();
-        }
+        animal.sleep();
+
+        animal.setName("旺财");
+
+        System.out.println("猫的名字：" + animal.getName());
     }
 }
