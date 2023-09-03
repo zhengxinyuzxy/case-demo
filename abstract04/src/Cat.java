@@ -9,7 +9,7 @@ public class Cat extends Animal{
     }
 
     public Cat(String s) {
-//        super("jack");
+        super("jack");
         System.out.println("cat的无参构造方法执行");
     }
 
