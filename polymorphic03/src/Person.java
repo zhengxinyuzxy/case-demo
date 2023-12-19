@@ -5,7 +5,7 @@
 public class Person {
     String personStr = "父类";
 
-    String personPub = "父类公共";
+    String publicStr = "父类公共";
 
     void eat () {
         System.out.println("人吃饭");

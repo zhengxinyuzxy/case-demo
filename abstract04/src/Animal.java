@@ -8,7 +8,7 @@ public abstract class Animal {
     }
 
     public Animal(String s) {
-        System.out.println("animal的String参数构造方法执行");
+        System.out.println("animal的String参数构造方法执行," + "\n" + "猫的名字：" + s);
     }
 
     private String animalName;

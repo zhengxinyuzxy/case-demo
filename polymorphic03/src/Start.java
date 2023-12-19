@@ -8,13 +8,13 @@ public class Start {
         Person person = new Student();
 
         System.out.println(person.personStr);
-        System.out.println(person.personPub);
+        System.out.println(person.publicStr);
 
 
         System.out.println("==============================");
 
         System.out.println(((Student) person).studentStr);
-        System.out.println(((Student) person).personPub);
+        System.out.println(((Student) person).publicStr);
         person.eat();
     }
 }
